@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# bin/ldd-reset calls:
+# orchestrator/reset-workflow.sh
+#   ├── docker-integration/container-manager.sh  # Stop containers
+#   ├── proxy-resolver/cleanup.sh               # Clean proxy configs
+#   ├── dependencies/*/wrapper.sh               # Clean dependencies
+#   └── orchestrator/status-reporter.sh         # Report cleanup
+
 # Source shared configuration  
 if [[ -f ".env.local" ]]; then
     source .env.local

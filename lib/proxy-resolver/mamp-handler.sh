@@ -1,0 +1,1 @@
+# MAMP/XAMPP detection

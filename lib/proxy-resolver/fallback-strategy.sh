@@ -1,0 +1,1 @@
+# HAProxy → nginx → manual fallback

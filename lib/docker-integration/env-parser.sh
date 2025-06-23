@@ -1,0 +1,1 @@
+# Parse .env.local for domains
