@@ -1,1 +1,0 @@
-# Traefik label generation

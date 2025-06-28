@@ -1,1 +1,0 @@
-# Container lifecycle management

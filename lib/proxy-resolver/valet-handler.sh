@@ -1,1 +1,0 @@
-# Laravel Valet detection & integration
